@@ -8,7 +8,8 @@ var app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, resp){
-    res.sendFile('index.html');
+    //res.sendFile('index.html);
+    res.sendFile(__dirname + '/public/aboutus.html');
 });
 
 module.exports = app;
