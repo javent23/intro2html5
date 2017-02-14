@@ -1,19 +1,31 @@
 header {
-    height: 100px;
-    background-color: fuchsia;
+    height: 55px;
+    background-color: #00747F;
+}
+h1{
+    color:#94EFFF;
 }
 
 nav{
-    height: 75px;
-    background-color: palegreen;
+    height: 25px;
+    background-color: #00B9CC;
+    position:absolute;
+    top:70px;
+    width: 1253px;
 }
 
 main{
-    height: 300px;
-    background-color: deepskyblue;
+    height: 800px;
+    background-color: #95EFFF;
+    padding:20px;
+}
+
+p,dl{
+    color:#00747F;
 }
 
 footer{
-    height: 100px;
-    background-color: lightgreen;
+    height: 200px;
+    background-color: #2A474A;
 }
+
